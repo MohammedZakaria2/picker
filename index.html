@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generate Random number</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <header class="bg-light">
+      <h1>Be Ready <strong>re:corded</strong> Fellows 😎 💪</h1>
+      <div class="link">
+        <a href="#start">Get Start</a>
+      </div>
+        </div>
+      </header>
+  
+      <section class="bg-dark relative flex-col" id="start">
+        <div class="buttons absolute top">
+          <button id="number-panel" class="toggleBtn current let-btn" >Random Name</button>
+          <button id="name-panel" class="toggleBtn right-btn" >Random Number</button>
+        </div>
+        <div class="number-panel hidden wrapper">
+          <div>
+            <h3>Number a Generator</h3>
+            <div class="input">
+              <input id="number" placeholder="Default is 25" type="number" />
+            </div>
+            <button class="btn" id="generateNum">Generate</button>
+            <p id="demo">Default Max is 25</p>
+          </div>
+        </div>
+        <div class="name-panel wrapper-main">
+          <div class="side-bar">
+            <ul>
+              <div class="selected">
+                <!-- <li>🤓 This  name</li> -->
+              </div>
+             <div class="to-select">
+              <!-- <li>😌 This is name</li> -->
+             </div>
+            </ul>
+          </div>
+          <div class="main-content">
+            <!-- <h3>Number Generator</h3> -->
+            <div>
+              <button class="btn danger" id="clear-btn">Clear</button>
+              <button class="btn" id="pick-name">Pick Name</button>
+              <p id="show-name">Select names</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="bg-gray" id="pick-number">
+        <div class="wrapper">
+          <div>
+            <h3>Number a Generator</h3>
+            <div class="input">
+              <input id="number" placeholder="Default is 25" type="number" />
+            </div>
+            <button class="btn" id="generateNum">Generate</button>
+            <p id="demo">Default Max is 25</p>
+          </div>
+        </div>
+      </section> -->
+    </main>
+    <footer>
+      <small>&copy; developed by: <span class="colored-pick">Mohammed Alalaya 😎</span></small>
+      <small>To use by <strong class="colored-gray">re:coded</strong> Fellows</small>
+    </footer>
+    <!-- <small class="footer">Exclusive for re:corded</small> -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
